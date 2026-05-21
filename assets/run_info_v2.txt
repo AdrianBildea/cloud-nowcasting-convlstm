@@ -1,0 +1,13 @@
+device: cuda
+gpu_name: NVIDIA GeForce RTX 5090 Laptop GPU
+frames: 248
+pairs: 240
+splits: {'train': 168, 'val': 36, 'test': 36}
+bad_files: []
+best_val_loss: 0.11882611066102981
+test_loss: 0.10018816441297532
+test_mae: 0.07696651816368102
+test_psnr: 16.60098070080337
+test_ssim: 0.6330078125
+seconds: 464.0080211162567
+config: {'data_dir': './BWimages', 'results_dir': './Results', 'img_h': 128, 'img_w': 128, 'img_c': 3, 'seq_len': 8, 'stride': 1, 'filters': 96, 'ksize': 3, 'dropout': 0.1, 'num_layers': 2, 'decoder_blocks': 3, 'epochs': 40, 'batch_size': 8, 'lr': 0.0003, 'min_lr': 1e-06, 'weight_decay': 0.0001, 'patience': 8, 'num_workers': 0, 'grad_clip': 1.0, 'seed': 42, 'amp': True, 'force_cuda': False, 'resume': ''}
